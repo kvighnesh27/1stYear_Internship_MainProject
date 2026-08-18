@@ -1,0 +1,52 @@
+# ====================================================================
+# 1. NODE / NEXT.JS FRONTEND SECURSITY & CLEANUP
+# ====================================================================
+# Heavy dependency folders (Never push these!)
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ====================================================================
+# 2. PYTHON BACKEND SECURITY & CLEANUP
+# ====================================================================
+# Environment & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual Environments (Heavy folders!)
+.venv/
+venv/
+ENV/
+env/
+
+
+# ====================================================================
+# 3. GLOBAL SENSITIVE FILES & ARCHIVES
+# ====================================================================
+# Secret environment variables containing API keys and passwords
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backup Archives (Like the one in your directory)
+*.zip
+*.tar.gz
+*.rar
+
+# OS specific files
+.DS_Store
+Thumbs.db
