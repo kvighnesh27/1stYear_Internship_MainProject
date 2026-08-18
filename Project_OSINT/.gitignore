@@ -1,0 +1,10 @@
+# Folders
+node_modules/
+
+# Local secret environment variables (Never upload this)
+.env
+.env.local
+.env.*.local
+
+# DO NOT put .env.example here. 
+# Keep it untracked in this list so it successfully pushes to GitHub.

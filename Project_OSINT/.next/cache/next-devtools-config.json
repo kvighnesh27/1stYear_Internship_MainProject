@@ -1,0 +1,13 @@
+{
+  "devToolsPanelSize": {
+    "__nextjs-dev-tools-panel-size_segment-explorer": {
+      "width": 400,
+      "height": 375
+    }
+  },
+  "devToolsPosition": "bottom-left",
+  "devToolsPanelPosition": {
+    "__nextjs-dev-tools-shared-panel-location": "bottom-left"
+  },
+  "scale": 1
+}
